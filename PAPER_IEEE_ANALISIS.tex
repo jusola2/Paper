@@ -55,8 +55,45 @@ The algorithm gets the message from the input and processes it to get the bits o
 		Logical operations performed to 512 bit chunks
 	}
 \end{figure}
+The complexity used to generate the hash code is $O(2^{64})$ because of the size of the word that divides every chunk, which is 64 bits.\\
+Now, we will apply the code to all strings in the already defined list.
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{captura.png}
+	\caption{
+		\label{fig:samplesetup}
+		SHA-256 applied to "abc"
+	}
+\end{figure}
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{Code_test.png}
+	\caption{
+		\label{fig:samplesetup}
+		SHA-256 applied to "test"
+	}
+\end{figure}
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{Code_heil.png}
+	\caption{
+		\label{fig:samplesetup}
+		SHA-256 applied to "Heil Hitler"
+	}
+\end{figure}
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{Code_today.png}
+	\caption{
+		\label{fig:samplesetup}
+		SHA-256 applied to "today is gonna be a beautiful day"
+	}
+\end{figure}
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{Code_Long.png}
+	\caption{
+		\label{fig:samplesetup}
+		SHA-256 applied to "I don't think you trust In my self righteous suicide I cry when angels deserve to die!"
+	}
+\end{figure}
 
-The complexity used to generate the hash code is $O(2^{64})$ because of the size of the word that divides every chunk, which is 64 bits.
+With the above, we can proceed to the data analysis to obtain results.
 \section{Results}
 \section{Discussion}
 \section{Conclusions}

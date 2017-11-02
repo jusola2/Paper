@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.9)  2 NOV 2017 05:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.9)  2 NOV 2017 06:09
 entering extended mode
 **./PAPER_IEEE_ANALISIS.tex
 (PAPER_IEEE_ANALISIS.tex
@@ -473,6 +473,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 
 LaTeX Warning: Label `fig:samplesetup' multiply defined.
 
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
+
+LaTeX Warning: Label `fig:samplesetup' multiply defined.
+
 )
 \openout1 = `PAPER_IEEE_ANALISIS.aux'.
 
@@ -573,23 +591,56 @@ File: logic.png Graphic file (type png)
 Package pdftex.def Info: logic.png used on input line 52.
 (pdftex.def)             Requested size: 176.39923pt x 44.93703pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 58.
+
+<captura.png, id=5, 434.37282pt x 97.86563pt>
+File: captura.png Graphic file (type png)
+ <use captura.png>
+Package pdftex.def Info: captura.png used on input line 61.
+(pdftex.def)             Requested size: 176.39923pt x 39.74435pt.
+
+<Code_test.png, id=6, 408.77719pt x 82.05656pt>
+File: Code_test.png Graphic file (type png)
+ <use Code_test.png>
+Package pdftex.def Info: Code_test.png used on input line 68.
+(pdftex.def)             Requested size: 176.39923pt x 35.41008pt.
+
+<Code_heil.png, id=7, 390.70969pt x 72.27pt>
+File: Code_heil.png Graphic file (type png)
+ <use Code_heil.png>
+Package pdftex.def Info: Code_heil.png used on input line 75.
+(pdftex.def)             Requested size: 176.39923pt x 32.62816pt.
  [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./CantidadDeCaracteres.png> <./Sha-256Code.png> <./logic.png>] (PAPER_IEEE_AN
-ALISIS.aux)
+ <./CantidadDeCaracteres.png> <./Sha-256Code.png> <./logic.png> <./captura.png>
+]
+<Code_today.png, id=22, 412.54124pt x 80.55093pt>
+File: Code_today.png Graphic file (type png)
+ <use Code_today.png>
+Package pdftex.def Info: Code_today.png used on input line 82.
+(pdftex.def)             Requested size: 176.39923pt x 34.44325pt.
+
+<Code_Long.png, id=23, 509.65407pt x 69.25874pt>
+File: Code_Long.png Graphic file (type png)
+ <use Code_Long.png>
+Package pdftex.def Info: Code_Long.png used on input line 89.
+(pdftex.def)             Requested size: 176.39923pt x 23.97142pt.
+ [2
+
+ <./Code_test.png> <./Code_heil.png> <./Code_today.png> <./Code_Long.png>]
+(PAPER_IEEE_ANALISIS.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2681 strings out of 493323
- 41312 string characters out of 3139067
+ 2706 strings out of 493323
+ 41727 string characters out of 3139067
  110704 words of memory out of 3000000
- 6204 multiletter control sequences out of 15000+200000
+ 6224 multiletter control sequences out of 15000+200000
  32949 words of font info for 62 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  39i,6n,25p,561b,214s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -599,9 +650,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9
 pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on PAPER_IEEE_ANALISIS.pdf (1 page, 127871 bytes).
+Output written on PAPER_IEEE_ANALISIS.pdf (2 pages, 147584 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
