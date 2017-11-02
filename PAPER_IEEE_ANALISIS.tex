@@ -95,6 +95,8 @@ Now, we will apply the code to all strings in the already defined list.
 
 With the above, we can proceed to the data analysis to obtain results.
 \section{Results}
+With the tests carried out, it is noted that the times to execute or digest the strings, tend to last the same, around 20-40 milliseconds,
+of course, these times are affected by the processes that are running the system simultaneously, but the effects of those process are usually minimal on the hash.\\It is worth mentioning that the size or number of characters in the string does not seem to affect the time to digest, as seen in the tests, due to the SHA-256 process to digest the set of bytes that make up the string.\\When seeing the order of the procedure, it coincides with the observed in the times of execution, since the large O is a constant $C$, there should not be times greater than the same $C=2^{64}$.\\With these results, the utility of the SHA-256 function in the algorithms and computational security processes is seen, since it is a fast, relatively simple function and since it is not an encryption method, the possibility of reaching the original string from of the string passed by the SHA-256 function, it is almost null.
 \section{Discussion}
 \section{Conclusions}
 \end{document}
