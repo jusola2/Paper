@@ -23,13 +23,16 @@ public class SHA256 {
     
     public static void main(String[] args) throws NoSuchAlgorithmException, UnsupportedEncodingException {
         
+        long startTime = System.nanoTime();
         MessageDigest md = MessageDigest.getInstance("SHA-256");
-        String text = "abc";//Here comes the text to digest
+        String text = ".";//Here comes the text to digest
 
         md.update(text.getBytes("UTF-8")); // Change this to "UTF-16" if needed
-        byte[] digest = md.digest();// here is where the text is digest 
+        byte[] digest = md.digest();// here is where the text is digest
         System.out.println(bytesToHex(digest));
-    
+        long endTime = System.nanoTime();
+        System.out.println("Time = " + (endTime - startTime) + "ns");
+
     }
     
 }

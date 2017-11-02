@@ -15,11 +15,10 @@
 \thanks{}}
 \maketitle
 \begin{abstract}
-hay que hacerlo al mfinal 
+Define what's the SHA-256 cryptographic method, what it does and how it works. Emperimentation on how long it takes for the method to generate a result for different input sizes.
 
 \end{abstract}
-\begin{IEEEkeywords}
-aun no se 
+\begin{IEEEkeywords}hash, cryptographic, bit, logic operation
 \end{IEEEkeywords}
 \IEEEpeerreviewmaketitle
 
@@ -48,6 +47,16 @@ In the figure 1, is the result of a python code that counts the number of charac
 	}
 \end{figure}
 \section{Experimentation}
+The algorithm gets the message from the input and processes it to get the bits of it, then adds a number 1 to the end and appends number 0s to make the message a 512 multiple length and finally the length of the message is appended at the end in 64-bit big-endian format. Then, for every 512 bit chunk a series of logical operations (shown in figure 3) are applied to the first 16 words of the chunk to extend the words across the entire 512 bit segment.
+\begin{figure}[H] 
+	\centering \includegraphics[width=.70\columnwidth]{logic.png}
+	\caption{
+		\label{fig:samplesetup}
+		Logical operations performed to 512 bit chunks
+	}
+\end{figure}
+
+The complexity used to generate the hash code is $O(2^{64})$ because of the size of the word that divides every chunk, which is 64 bits.
 \section{Results}
 \section{Discussion}
 \section{Conclusions}
